@@ -3,6 +3,8 @@
     }
     .descrizioneAzione{
         color: black;
+
+        margin: 20px;
     }
     .listaLuoghi{
         width: 80%;
