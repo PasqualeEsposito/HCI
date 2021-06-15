@@ -1,48 +1,7 @@
-<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Save the Planet</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/style.css">
-        <link href="http://fonts.cdnfonts.com/css/utopia-std" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
-    <body>
-        <nav class="navbar navbar-light bg-light stileNavbar">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col">
-                        <img src="immagini/icon.png" width="150" height="120">
-                    </div>
-                    <div class="col h-100 my-auto">
-                        <a class="navbar-brand" id="titolo" href="index.jsp">Save the Planet</a>
-                    </div>
-                </div>
-            </div>
-        </nav>
-        <nav class="navbar navbar-light bg-light stileNavbar">
-            <div class="container-fluid">
-                <div class="row w-100 justify-content-center">
-                    <div class="col-md-auto h-100 my-auto">
-                        <a class="navbar-brand sottotitoli" href="index.jsp">Carica una foto</a>
-                    </div>
-                    <div class="col-md-auto h-100 my-auto">
-                        <a class="navbar-brand sottotitoli" href="index.jsp">Partecipa ad un'escursione</a>
-                    </div>
-                    <div class="col-md-auto h-100 my-auto">
-                        <a class="navbar-brand sottotitoli" href="index.jsp">Organizza un'escursione</a>
-                    </div>
-                    <div class="col-md-auto h-100 my-auto">
-                        <a class="navbar-brand sottotitoli" href="index.jsp">Cerca luoghi di interesse</a>
-                    </div>
-                    <div class="col-md-auto h-100 my-auto">
-                        <a class="navbar-brand sottotitoli" href="index.jsp">Contatta un esperto</a>
-                    </div>
-                </div>
-            </div>
-        </nav>
-
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+        <jsp:include page="header.jsp">
+            <jsp:param name="titolo" value="Save the Planet"/>
+        </jsp:include>
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -138,23 +97,6 @@
                 </div>
             </div>
         </div>
-
-        <div class="container-fluid" id="stileFooter">
-            <div class="row justify-content-center">
-                <div class="col-md-auto h-100 my-auto">
-                    <h1>Copyright &copy; tutti i diritti riservati</h1>
-                </div>
-
-                <div class="col-md-auto h-100 my-auto">
-                    <i class="fa fa-facebook" aria-hidden="true"></i>
-                    <i class="fa fa-twitter" aria-hidden="true"></i>
-                    <i class="fa fa-instagram" aria-hidden="true"></i>
-                </div>
-            </div>
-        </div>
-
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+        <%@include file="footer.html"%>
     </body>
 </html>
