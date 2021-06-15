@@ -31,7 +31,7 @@
                         <a class="navbar-brand sottotitoli" href="index.jsp">Partecipa ad un'escursione</a>
                     </div>
                     <div class="col-md-auto h-100 my-auto">
-                        <a class="navbar-brand sottotitoli" href="index.jsp">Organizza un'escursione</a>
+                        <a class="navbar-brand sottotitoli" href="organizzaEscursione.jsp">Organizza un'escursione</a>
                     </div>
                     <div class="col-md-auto h-100 my-auto">
                         <a class="navbar-brand sottotitoli" href="index.jsp">Cerca luoghi di interesse</a>
