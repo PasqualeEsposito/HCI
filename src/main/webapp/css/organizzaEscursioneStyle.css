@@ -3,7 +3,6 @@
     }
     .descrizioneAzione{
         color: black;
-
         margin: 20px;
     }
     .listaLuoghi{
@@ -11,7 +10,6 @@
         margin: 20px;
         border-radius: 10px;
         background-color: darkseagreen;
-
     }
     .lista{
         list-style-type: none;
