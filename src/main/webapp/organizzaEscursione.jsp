@@ -6,7 +6,7 @@
         <div>
             <div class="descrizioneAzione">
                 <h1>Richieste di fotografie</h1>
-                <h3>clicca sul luogo per dui desideri organizzare un'escursione</h3>
+                <h3>clicca sul luogo per cui desideri organizzare un'escursione</h3>
                 <hr>
             </div>
             <div class="listaLuoghi">
