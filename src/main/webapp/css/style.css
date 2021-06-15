@@ -1,0 +1,50 @@
+/*header*/
+body{
+    font-family: "utopia-std";
+    font-weight: bold;
+    color: white;
+    background-color: #3E7B34;
+}
+
+#titolo {
+    font-size: 60px;
+    color: white;
+}
+
+.sottotitoli{
+    font-size: 30px;
+    color: white !important;
+}
+
+.stileNavbar{
+    background-color: #3E7B34 !important;
+}
+
+/*slider*/
+.immaginiSlider{
+    height: 1080px;
+}
+
+/*informazioni*/
+h1#titoloBenvenuti{
+    font-size: 40px;
+    color: white;
+}
+
+/*citazione*/
+#immagineGreta {
+    border-radius: 8.25rem !important;
+}
+
+#citazione{
+    background-color: #757B73;
+}
+
+#citazioneTesto{
+    font-style: italic;
+}
+
+/*footer*/
+#stileFooter{
+    background-color: #757B73;
+}
