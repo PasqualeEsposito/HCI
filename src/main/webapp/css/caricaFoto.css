@@ -1,0 +1,48 @@
+.corpo{
+    min-height: 1000px;
+}
+
+body{
+    background-color: white;
+}
+.carica{
+    color:black;
+    font-size: 3vw;
+    padding-left: 2%;
+    margin-top: 2%;
+    font-weight: bold;
+}
+hr{
+    margin-top: 0;
+    margin-bottom: 5%;
+
+}
+#fotoImg{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 30vw;
+    margin-left: 2%;
+    margin-right: 5%;
+    height: 32vw;
+}
+
+.form1{
+    float: left;
+    margin-right: 5%;
+}
+
+.form2{
+    float: left;
+}
+
+.form-group{
+    color:#3E7B34;
+}
+
+.form-check{
+    color:#3E7B34;
+    padding-left: 0;
+}
+
+
