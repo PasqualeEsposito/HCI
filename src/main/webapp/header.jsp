@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="css/style.css">
         <link href="http://fonts.cdnfonts.com/css/utopia-std" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="jquery-3.5.1.min.js"></script>
     </head>
     <body>
         <nav class="navbar navbar-light bg-light stileNavbar">
@@ -37,7 +38,7 @@
                         <a class="navbar-brand sottotitoli" href="index.jsp">Cerca luoghi di interesse</a>
                     </div>
                     <div class="col-md-auto h-100 my-auto">
-                        <a class="navbar-brand sottotitoli" href="index.jsp">Contatta un esperto</a>
+                        <a class="navbar-brand sottotitoli" href="iNostriEsperti.jsp">Contatta un esperto</a>
                     </div>
                 </div>
             </div>

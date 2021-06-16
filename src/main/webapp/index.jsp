@@ -2,6 +2,17 @@
         <jsp:include page="header.jsp">
             <jsp:param name="titolo" value="Save the Planet"/>
         </jsp:include>
+        <% Object check=request.getAttribute("messaggioEsperto");
+            if(check!=null && check.toString().equals("true")){ %>
+        <div class="container-fluid">
+            <div class="alert alert-success alert-dismissible fade show" role="alert" id="messaggioContattaEsperto">
+                Il messaggio è stato inviato correttamente
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+        </div>
+        <%}%>
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>

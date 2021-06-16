@@ -1,0 +1,29 @@
+body{
+    background-color: white;
+}
+
+.colorBlack{
+    color: black;
+}
+
+.sfondoVerdeChiaro{
+    background-color: rgba(62, 123, 52, 0.5);
+}
+
+.cardEsperto{
+    padding: 10px;
+}
+
+#contenitoreCardEsperti{
+    padding: 60px;
+}
+
+#contenitoreFormEsperti{
+    padding: 30px;
+}
+
+.campiForm{
+    background-color: rgba(62, 123, 52, 0.5);
+    border-width: 2px;
+    border-color: #3E7B34;
+}
