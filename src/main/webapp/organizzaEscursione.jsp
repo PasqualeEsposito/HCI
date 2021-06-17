@@ -5,14 +5,14 @@
     <link rel="stylesheet" href="css/organizzaEscursioneStyle.css">
         <div>
             <div class="descrizioneAzione">
-                <h1>Richieste di fotografie</h1>
+                <h1 style="font-weight: bold;">Richieste di fotografie</h1>
                 <h3>clicca sul luogo per cui desideri organizzare un'escursione</h3>
                 <hr>
             </div>
             <div class="listaLuoghi">
                 <ul class="lista">
-                    <li><a class="coloriLink" href="#">Roma </a></li>
-                    <li><a  class="coloriLink" href="#">Somma</a></li>
+                    <li><a class="coloriLink" href="organizzaEscursioneForm.jsp?userId=${"Roma"}" >Roma </a></li>
+                    <li><a  class="coloriLink" href="organizzaEscursioneForm.jsp?userId=${"Somma"}">Somma</a></li>
                 </ul>
 
             </div>
