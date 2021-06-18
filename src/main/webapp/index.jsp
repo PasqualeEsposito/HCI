@@ -13,6 +13,17 @@
             </div>
         </div>
         <%}%>
+        <% Object controllo=request.getAttribute("messaggioFoto");
+            if(controllo!=null && controllo.toString().equals("true")){ %>
+        <div class="container-fluid">
+            <div class="alert alert-success alert-dismissible fade show" role="alert" id="messaggioInviaFoto">
+                La foto è stata inviata correttamente
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+        </div>
+        <%}%>
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>

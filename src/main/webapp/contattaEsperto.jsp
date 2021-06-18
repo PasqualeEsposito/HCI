@@ -56,7 +56,7 @@
                     </div>
                 </div>
 
-                <button type="submit" class="btn btn-success mb-2">Invia</button>
+                <button type="submit" class="btn btn-success mb-2 submit">Invia</button>
             </form>
         </div>
     </div>

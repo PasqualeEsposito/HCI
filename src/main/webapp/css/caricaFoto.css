@@ -45,4 +45,20 @@ hr{
     padding-left: 0;
 }
 
+.form-control{
+    background-color: rgba(62, 123, 52, 0.5);
+    border-width: 2px;
+    border-color: #3E7B34;
+}
 
+.submit{
+    background-color: rgba(62, 123, 52, 0.5);
+}
+
+.submit:hover{
+    background-color: rgba(16, 69, 7);
+}
+
+#errore{
+    color:black;
+}

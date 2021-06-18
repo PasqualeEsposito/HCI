@@ -28,26 +28,26 @@
             </div>
         </div>
         <div class="form2" >
-        <form>
+        <form action="inviaFoto" id="inviaFoto" name="inviaFoto">
             <div class="form-group">
                 <label for="luogoScatto">Luogo dello scatto</label>
-                <input type="text" class="form-control" id="luogoScatto" placeholder="Luogo">
+                <input type="text" class="form-control" id="luogoScatto" placeholder="Luogo" oninput="validateLogo()" >
             </div>
             <div class="form-group">
                 <label for="data">Data</label>
-                <input type="date" class="form-control" id="data" placeholder="GG/MM/AAAA">
+                <input type="date" class="form-control" id="data" placeholder="GG/MM/AAAA" oninput="validateDate()" required>
             </div>
             <div class="form-group">
                 <label for="ora">Ora</label>
-                <input type="time" class="form-control" id="ora" placeholder="Ora">
+                <input type="time" class="form-control" id="ora" placeholder="Ora" oninput="validateOra()" required>
             </div>
             <div class="form-group">
-                <label for="email">Email</label>
-                <input type="email" class="form-control" id="email" placeholder="example@example.it">
+                <label for="email">Email (facoltativo) </label>
+                <input type="email" class="form-control" id="email" placeholder="example@example.it" oninput="validateEmail()">
             </div>
             <div class="form-group">
                 <label for="foto">Scegli foto</label>
-                <input class="form-control boxShadow" oninput="validateFoto()" class="form-control" type="file" id="foto" name="foto" multiple>
+                <input class="form-control boxShadow" oninput="validateFoto()" class="form-control" type="file" id="foto" name="foto" multiple required>
             </div>
             <div class="form-check">
                 <input name="gruppo1" type="radio" id="radio1" checked>
@@ -57,8 +57,9 @@
                 <input name="gruppo1" type="radio" id="radio2">
                 <label for="radio2"> Smartphone</label>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="button" class="btn btn-primary submit" onclick="submitForm()" >Invia</button>
         </form>
+            <h6 id="errore"></h6>
         </div>
     </div>
 

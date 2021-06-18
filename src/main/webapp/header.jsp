@@ -40,7 +40,7 @@
                         <a class="navbar-brand sottotitoli" href="index.jsp">Cerca luoghi di interesse</a>
                     </div>
                     <div class="col-md-auto h-100 my-auto">
-                        <a class="navbar-brand sottotitoli" href="index.jsp">Contatta un esperto</a>
+                        <a class="navbar-brand sottotitoli" href="iNostriEsperti.jsp">Contatta un esperto</a>
                     </div>
                 </div>
             </div>
