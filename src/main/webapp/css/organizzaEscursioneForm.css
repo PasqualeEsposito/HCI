@@ -27,15 +27,7 @@ hr{
 }
 .dataDiv{
     float:left;
-    margin-right: 55px;
-}
-.form1{
-    float: left;
-    margin-right: 5%;
-}
-
-.form2{
-    float: left;
+    margin-right: 20px;
 }
 
 .form-group{
@@ -63,4 +55,14 @@ hr{
 
 #errore{
     color:black;
+}
+input{
+    width: 150px;
+}
+textarea{
+    width:230px;
+    height:60px;
+}
+#luogoEscursione{
+    border: 2px solid #080;
 }

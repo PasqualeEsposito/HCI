@@ -11,12 +11,15 @@
             </div>
             <div class="listaLuoghi">
                 <ul class="lista">
-                    <li><a class="coloriLink" href="organizzaEscursioneForm.jsp?userId=${"Roma"}" >Roma </a></li>
+                    <li><a class="coloriLink" href="organizzaEscursioneForm.jsp?userId=${"Parco delle Madonie"}" >Parco delle Madonie (Sicilia) </a></li>
                     <li><a  class="coloriLink" href="organizzaEscursioneForm.jsp?userId=${"Somma"}">Somma</a></li>
+                    <li><a  class="coloriLink" href="organizzaEscursioneForm.jsp?userId=${"Golfo dei Poeti"}">Golfo dei Poeti (Liguria)</a></li>
+                    <li><a  class="coloriLink" href="organizzaEscursioneForm.jsp?userId=${"Isola di Capraia"}">Isola di Capraia (Toscana)</a></li>
+                    <li><a  class="coloriLink" href="organizzaEscursioneForm.jsp?userId=${"Parco del Cilento"}">Parco del Cilento (Campania)</a></li>
                 </ul>
 
             </div>
         </div>
     <div class="footer"> <%@include file="footer.html"%></div>
-    </body>
+</body>
 </html>
