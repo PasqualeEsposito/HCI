@@ -3,7 +3,7 @@
         <jsp:param name="titolo" value="Save the Planet"/>
     </jsp:include>
     <link rel="stylesheet" href="css/organizzaEscursioneStyle.css">
-        <div>
+        <div class="container">
             <div class="descrizioneAzione">
                 <h1 style="font-weight: bold;">Richieste di fotografie</h1>
                 <h3>clicca sul luogo per cui desideri organizzare un'escursione</h3>
@@ -17,6 +17,6 @@
 
             </div>
         </div>
-        <%@include file="footer.html"%>
+    <div class="footer"> <%@include file="footer.html"%></div>
     </body>
 </html>
