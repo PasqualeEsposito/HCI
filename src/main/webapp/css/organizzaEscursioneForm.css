@@ -1,0 +1,66 @@
+.corpo{
+    min-height: 1000px;
+}
+
+body{
+    background-color: white;
+}
+.carica{
+    color:black;
+    font-size: 3vw;
+    padding-left: 2%;
+    margin-top: 2%;
+    font-weight: bold;
+}
+hr{
+    margin-top: 0;
+    margin-bottom: 5%;
+
+}
+.divEsterno{
+    margin-left: 30%;
+    margin-bottom: 50px;
+}
+.luogoDiv{
+    float: left;
+    margin-right: 20px;
+}
+.dataDiv{
+    float:left;
+    margin-right: 55px;
+}
+.form1{
+    float: left;
+    margin-right: 5%;
+}
+
+.form2{
+    float: left;
+}
+
+.form-group{
+    color:#3E7B34;
+}
+
+.form-check{
+    color:#3E7B34;
+    padding-left: 0;
+}
+
+.form-control{
+    background-color: rgba(62, 123, 52, 0.5);
+    border-width: 2px;
+    border-color: #3E7B34;
+}
+
+.submit{
+    background-color: rgba(62, 123, 52, 0.5);
+}
+
+.submit:hover{
+    background-color: rgba(16, 69, 7);
+}
+
+#errore{
+    color:black;
+}
