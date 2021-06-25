@@ -81,7 +81,7 @@
         </div>
     </div>
 </div>
-    <button class="button" style="font-size: 24px; margin-left: 43%;" onclick="caricaEscursioni()">Carica altre escursioni</button>
+    <button id="btn" class="button" style="font-size: 24px; margin-left: 43%;" onclick="caricaEscursioni()">Carica altre escursioni</button>
 <%@include file="footer.html"%>
 <script type="text/javascript" src="script/caricaEscursioni.js"></script>
 </body>
