@@ -31,7 +31,7 @@
                         <a class="navbar-brand sottotitoli" href="caricaFoto.jsp">Carica una foto</a>
                     </div>
                     <div class="col-md-auto h-100 my-auto">
-                        <a class="navbar-brand sottotitoli" href="index.jsp">Partecipa ad un'escursione</a>
+                        <a class="navbar-brand sottotitoli" href="partecipaEscursione.jsp">Partecipa ad un'escursione</a>
                     </div>
                     <div class="col-md-auto h-100 my-auto">
                         <a class="navbar-brand sottotitoli" href="organizzaEscursione.jsp">Organizza un'escursione</a>
