@@ -14,7 +14,7 @@
 
     <h1 class="carica">Inserisci i dettagli dell'escursione</h1>
     <hr>
-    <form action="organizza" id="organizza" name="organizza">
+    <form action="organizzaEscursione" id="organizzaEscursione" name="organizzaEscursione">
       <div class="divEsterno" >
         <div class="form-group luogoDiv" >
             <label for="luogoEscursione">Nome luogo</label> <br>

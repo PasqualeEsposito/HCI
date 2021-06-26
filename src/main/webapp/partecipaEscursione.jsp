@@ -5,6 +5,17 @@
 <link rel="stylesheet" href="css/partecipaEscursione.css">
 
 <h1>Partecipa ad un'escursione</h1>
+<% Object controllo=request.getAttribute("messaggioEscursione");
+    if(controllo!=null && controllo.toString().equals("true")){ %>
+<div class="container-fluid">
+    <div class="alert alert-success alert-dismissible fade show" role="alert" id="messaggioInviaFoto">
+            L'escursione è stata inserita correttamente
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+</div>
+<%}%>
 
 <div class="grid-container">
     <div class="grid-item">
@@ -72,8 +83,19 @@
             <button class="button" onclick="window.location.href='altre-info?name=silla'">Altre info</button>
         </div>
     </div>
+    <!--
     <div id="e3" class="grid-item" style="display: none">
         <h1 style="color: black">Parco Nazionale del Gran Paradiso</h1>
+        <img src="immagini/parcoParadiso.png" alt="Parco Nazionale del Gran Paradiso" style="width: 400px">
+        <div>
+            <button class="button" onclick="window.location.href='partecipa-escursione?name=granParadiso'">Partecipa</button>
+            <button class="button" onclick="window.location.href='altre-info?name=granParadiso'">Altre info</button>
+        </div>
+    </div>
+-->
+
+    <div id="e3" class="grid-item" style="display: none">
+        <h1 style="color: black"><%= request.getParameter("luogoEscursione") %></h1>
         <img src="immagini/parcoParadiso.png" alt="Parco Nazionale del Gran Paradiso" style="width: 400px">
         <div>
             <button class="button" onclick="window.location.href='partecipa-escursione?name=granParadiso'">Partecipa</button>
