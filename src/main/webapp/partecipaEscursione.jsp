@@ -83,7 +83,7 @@
             <button class="button" onclick="window.location.href='altre-info?name=silla'">Altre info</button>
         </div>
     </div>
-    <!--
+<!--
     <div id="e3" class="grid-item" style="display: none">
         <h1 style="color: black">Parco Nazionale del Gran Paradiso</h1>
         <img src="immagini/parcoParadiso.png" alt="Parco Nazionale del Gran Paradiso" style="width: 400px">
@@ -93,8 +93,8 @@
         </div>
     </div>
 -->
-
-    <div id="e3" class="grid-item" style="display: none">
+    <%if(controllo!=null && controllo.toString().equals("true")){ %>
+    <div id="e3" class="grid-item" style="display: none;">
         <h1 style="color: black"><%= request.getParameter("luogoEscursione") %></h1>
         <img src="immagini/parcoParadiso.png" alt="Parco Nazionale del Gran Paradiso" style="width: 400px">
         <div>
@@ -102,7 +102,7 @@
             <button class="button" onclick="window.location.href='altre-info?name=granParadiso'">Altre info</button>
         </div>
     </div>
-
+    <%}%>
 </div>
     <button id="btn" class="button" style="font-size: 24px; margin-left: 43%;" onclick="caricaEscursioni()">Carica altre escursioni</button>
 <%@include file="footer.html"%>
