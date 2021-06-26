@@ -98,8 +98,8 @@
         <h1 style="color: black"><%= request.getParameter("luogoEscursione") %></h1>
         <img src="immagini/parcoParadiso.png" alt="Parco Nazionale del Gran Paradiso" style="width: 400px">
         <div>
-            <button class="button" onclick="window.location.href='partecipa-escursione?name=granParadiso'">Partecipa</button>
-            <button class="button" onclick="window.location.href='altre-info?name=granParadiso'">Altre info</button>
+            <button class="button" onclick="window.location.href='partecipa-escursione?name=<%= request.getParameter("luogoEscursione") %>&name2=aggiunta'">Partecipa</button>
+            <button class="button" onclick="window.location.href='altre-info?name=<%= request.getParameter("luogoEscursione") %>&name2=aggiunta'">Altre info</button>
         </div>
     </div>
     <%}%>

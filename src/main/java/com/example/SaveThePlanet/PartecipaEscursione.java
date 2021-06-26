@@ -44,11 +44,14 @@ public class PartecipaEscursione extends HttpServlet {
             request.setAttribute("luogo", "immagini/parcoSila");
             request.setAttribute("nome", "Parco Nazionale della Sila");
         }
-        if (luogo.equals("granParadiso")) {
-            request.setAttribute("luogo", "immagini/parcoParadiso.png");
-            request.setAttribute("nome", "Parco Nazionale del Gran Paradiso");
-        }
 
+        if(!(luogo.equals("sila")||luogo.equals("pollino")||luogo.equals("stelvio")||luogo.equals("vesuvio")||luogo.equals("dei")||luogo.equals("abruzzo")||luogo.equals("umbra")||luogo.equals("matese"))) {
+            String controlloLuogo = request.getParameter("name2");//per aggiungere il luogo dinameìicamente dalla organizzazione dell'escursione
+            if (controlloLuogo.equals("aggiunta")) {
+                request.setAttribute("nome", luogo);
+                request.setAttribute("luogo", "immagini/parcoParadiso.png");
+            }
+        }
         RequestDispatcher dispatcher = request.getRequestDispatcher("partecipa.jsp");
         dispatcher.forward(request, response);
     }
