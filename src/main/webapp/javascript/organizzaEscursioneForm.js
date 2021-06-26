@@ -67,8 +67,11 @@ function validateRitrovo(){
 
 }
 
+var inviaDati= document.getElementById("organizza");
+
 function submitForm(){
     if (dataOK&&oraOK&&emailOK&&durataOK){
+        inviaDati.submit();
         errore.innerHTML="";
     }else {
         validateDate();

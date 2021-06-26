@@ -80,6 +80,7 @@
             <button class="button">Altre info</button>
         </div>
     </div>
+
 </div>
     <button id="btn" class="button" style="font-size: 24px; margin-left: 43%;" onclick="caricaEscursioni()">Carica altre escursioni</button>
 <%@include file="footer.html"%>
