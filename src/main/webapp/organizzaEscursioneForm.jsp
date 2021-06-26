@@ -45,7 +45,7 @@
         </div>
 
         <div class="form-group">
-            <label for="email">Email organizzatore</label><br>
+            <label for="email" id="emailLabel">Email organizzatore</label><br>
             <input type="email"  id="email" placeholder="example@example.it" oninput="validateEmail()" required>
         </div>
 
