@@ -24,6 +24,17 @@
             </div>
         </div>
         <%}%>
+    <% Object checkito=request.getAttribute("partecipazione");
+        if(checkito!=null && checkito.toString().equals("true")){ %>
+    <div class="container-fluid">
+        <div class="alert alert-success alert-dismissible fade show" role="alert" id="messaggioPartecipazione">
+            Abbiamo ricevuto la tua richiesta di partecipazione, riceverai ulteriori informazioni via mail
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    </div>
+    <%}%>
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>

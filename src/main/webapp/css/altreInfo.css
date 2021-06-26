@@ -1,0 +1,21 @@
+body{
+    background-color: white;
+}
+
+.colour{
+    color: black;
+}
+
+.grid-container {
+    display: grid;
+    grid-gap: 50px 100px;
+    grid-template-columns: 50% 30%;
+    margin: 1%;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 30px;
+    text-align: justify;
+    border-radius: 15px;
+}
