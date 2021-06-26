@@ -9,19 +9,15 @@
 <h1 class="colour" style="margin-left: 1%"><b>${nome}</b></h1>
 <div class="grid-container">
     <img src="${luogo}" class="grid-item" width="700px">
-    <div class="col-6 colorBlack grid-item">
+    <div>
         <form action="partecipazione">
-            <div class="form-group row">
-                <label for="nome" class="col-sm-2 col-form-label">Nome</label>
-                <div class="col-sm-10">
-                    <input name="nome" type="text" class="form-control campiForm" id="nome">
-                </div>
+            <div class="form-group">
+                <label for="nome">Nome</label>
+                <input name="nome" type="text" class="form-control campiForm" id="nome" placeholder="Example: Mario">
             </div>
-            <div class="form-group row">
-                <label for="cognome" class="col-sm-2 col-form-label">Cognome</label>
-                <div class="col-sm-10">
-                    <input name="cognome" type="text" class="form-control campiForm" id="cognome">
-                </div>
+            <div class="form-group">
+                <label for="cognome">Cognome</label>
+                <input name="cognome" type="text" class="form-control campiForm" id="cognome" placeholder="Example: Rossi">
             </div>
 
             <div class="form-group">

@@ -19,7 +19,6 @@
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
     <div class="corpo">
 
-
         <h1 class="carica">Carica foto</h1>
         <hr>
         <div class="form1">
