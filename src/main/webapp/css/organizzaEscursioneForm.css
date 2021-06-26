@@ -66,3 +66,7 @@ textarea{
 #luogoEscursione{
     border: 2px solid #080;
 }
+.ritrovoDiv{
+    float: left;
+    margin-right: 20px;
+}

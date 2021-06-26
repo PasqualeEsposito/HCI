@@ -34,9 +34,14 @@
             <input type="time" id="ora" placeholder="Ora" oninput="validateOra()" required>
         </div>
 
-        <div class="form-group">
+        <div class="form-group ritrovoDiv">
             <label for="ritrovo">Punto di ritrovo</label><br>
             <input type="text" id="ritrovo" name="ritrovo" oninput="validateRitrovo()" required>
+        </div>
+
+        <div class="form-group">
+            <label for="difficolta">Difficoltà</label><br>
+            <input type="range" id="difficolta" min="1" max="5" value="3">
         </div>
 
         <div class="form-group">
