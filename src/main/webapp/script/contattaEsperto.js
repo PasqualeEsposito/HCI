@@ -3,6 +3,7 @@ $("document").ready(function(){
     var cognome= document.forms["contattaEsperto"]["cognome"];
     var email= document.forms["contattaEsperto"]["email"];
     var messaggio= document.forms["contattaEsperto"]["messaggio"];
+    var emaileRegEx= new RegExp("^[\\w-\\.]+@([\\w-]+\\.)+[\\w-]{2,4}$");
 
     $(nome).blur(function(){
         if(nome.value=="")
@@ -17,7 +18,7 @@ $("document").ready(function(){
     })
 
     $(email).blur(function(){
-        if(email.value=="")
+        if(email.value=="" || !emaileRegEx.test(email.value))
             $(email).css("border-color", "red");
         else $(email).css("border-color", "green");
     })

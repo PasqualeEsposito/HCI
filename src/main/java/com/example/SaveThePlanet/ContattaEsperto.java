@@ -16,7 +16,7 @@ public class ContattaEsperto extends HttpServlet {
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
 
-        request.setAttribute("checkito", "true");
+        request.setAttribute("messaggioEsperto", "true");
         RequestDispatcher dispatcher=request.getRequestDispatcher("index.jsp");
         dispatcher.forward(request, response);
     }

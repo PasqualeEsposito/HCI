@@ -38,14 +38,21 @@
                 <div class="form-group row">
                     <label for="email" class="col-sm-2 col-form-label">Email</label>
                     <div class="col-sm-10">
-                        <input name="email" type="text" class="form-control campiForm" id="email">
+                        <input name="email" type="email" class="form-control campiForm" id="email">
                     </div>
                 </div>
 
                 <div class="form-group row">
                     <label for="email-esperto" class="col-sm-2 col-form-label">Email</label>
                     <div class="col-sm-10">
-                        <input name="email-esperto" type="text" readonly class="form-control campiForm" id="email-esperto" placeholder="<%= request.getParameter("name") %>">
+                        <input name="email-esperto" type="email" readonly class="form-control campiForm" id="email-esperto" placeholder="<%= request.getParameter("name") %>">
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="messaggio" class="col-sm-2 col-form-label">Messaggio</label>
+                    <div class="col-sm-10">
+                        <textarea name="messaggio" class="form-control campiForm" id="messaggio" rows="3"></textarea>
                     </div>
                 </div>
 
@@ -57,7 +64,7 @@
 </div>
 
 
-<%@include file="footer.html"%>
+<div class="footer"> <%@include file="footer.html"%></div>
 <script src="script/contattaEsperto.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 </body>
