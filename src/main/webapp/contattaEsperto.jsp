@@ -43,16 +43,9 @@
                 </div>
 
                 <div class="form-group row">
-                    <label for="email-esperto" class="col-sm-2 col-form-label">Email esperto</label>
+                    <label for="email-esperto" class="col-sm-2 col-form-label">Email</label>
                     <div class="col-sm-10">
                         <input name="email-esperto" type="text" readonly class="form-control campiForm" id="email-esperto" placeholder="<%= request.getParameter("name") %>">
-                    </div>
-                </div>
-
-                <div class="form-group row">
-                    <label for="messaggio" class="col-sm-2 col-form-label">Messaggio</label>
-                    <div class="col-sm-10">
-                        <textarea name="messaggio" class="form-control campiForm" id="messaggio" rows="3"></textarea>
                     </div>
                 </div>
 

@@ -65,6 +65,5 @@
 
         <%@include file="footer.html"%>
 <script src="javascript/caricaFoto.js"></script>
-<script src="javascript/data.js"></script>
     </body>
 </html>

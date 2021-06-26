@@ -6,8 +6,8 @@ import javax.servlet.ServletException;
 import javax.servlet.http.*;
 import javax.servlet.annotation.*;
 
-@WebServlet(value = "/contatta-esperto")
-public class ContattaEsperto extends HttpServlet {
+@WebServlet(value = "/partecipazione")
+public class Partecipazione extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -16,8 +16,8 @@ public class ContattaEsperto extends HttpServlet {
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
 
-        request.setAttribute("checkito", "true");
-        RequestDispatcher dispatcher=request.getRequestDispatcher("index.jsp");
+        request.setAttribute("partecipazione", "true");
+        RequestDispatcher dispatcher = request.getRequestDispatcher("index.jsp");
         dispatcher.forward(request, response);
     }
 
