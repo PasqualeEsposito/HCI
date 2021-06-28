@@ -10,7 +10,7 @@
 <div class="grid-container">
     <img src="${luogo}" class="grid-item" width="700px">
     <div>
-        <form action="partecipazione">
+        <form action="partecipazione" id="partecipazione" name="partecipazione">
             <div class="form-group">
                 <label for="nome">Nome</label>
                 <input name="nome" type="text" class="form-control campiForm" id="nome" placeholder="Example: Mario">
@@ -37,6 +37,6 @@
 
 
 <%@include file="footer.html"%>
-<script src="javascript/caricaFoto.js"></script>
+<script src="script/partecipaEscursione.js"></script>
 </body>
 </html>
