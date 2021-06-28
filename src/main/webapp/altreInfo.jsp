@@ -5,6 +5,7 @@
 <link rel="stylesheet" href="css/altreInfo.css">
 
 <h1 class="colour" style="margin-left: 1%"><b>${nome}</b></h1>
+<div class="corpo">
 <div class="grid-container">
     <img src="${luogo}" width="80%" alt= "${nome}" class="grid-item">
     <div class="grid-item">
@@ -17,7 +18,7 @@
         <h3 class="colour"><b>Altre info</b> Altre informazioni...</h3>
     </div>
 </div>
-
+</div>
 <%@include file="footer.html"%>
 </body>
 </html>

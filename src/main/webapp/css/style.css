@@ -12,7 +12,7 @@ body{
 }
 
 .sottotitoli{
-    font-size: 25px; !important;
+    font-size: 22px; !important;
     color: white !important;
 }
 
@@ -38,6 +38,8 @@ h1#titoloBenvenuti{
 
 #citazione{
     background-color: #757B73;
+    margin-top: 5%;
+    padding: 2.5%;
 }
 
 #citazioneTesto{
@@ -47,5 +49,6 @@ h1#titoloBenvenuti{
 /*footer*/
 #stileFooter{
     background-color: #757B73;
-    min-height: 200px;
+    min-height: 100px;
 }
+

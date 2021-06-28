@@ -3,7 +3,8 @@
     <jsp:param name="titolo" value="Save the Planet"/>
 </jsp:include>
 <link rel="stylesheet" href="css/contattaEspertoStyle.css">
-
+<div class="corpo">
+    <h1 class="colorBlack">Contatta un nostro esperto</h1>
 <div class="container" id="contenitoreFormEsperti">
     <div class="row">
         <div class="col-6">
@@ -63,8 +64,8 @@
 
 </div>
 
-
-<div class="footer"> <%@include file="footer.html"%></div>
+</div>
+ <%@include file="footer.html"%>
 <script src="script/contattaEsperto.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 </body>

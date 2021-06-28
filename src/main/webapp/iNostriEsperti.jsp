@@ -3,7 +3,7 @@
     <jsp:param name="titolo" value="Save the Planet"/>
 </jsp:include>
 <link rel="stylesheet" href="css/contattaEspertoStyle.css">
-
+<div class="corpo">
 <div class="container-fluid">
     <div class="row">
         <div class="col-12">
@@ -55,7 +55,7 @@
     </div>
 </div>
 
-
-<div class="footer"> <%@include file="footer.html"%></div>
+</div>
+ <%@include file="footer.html"%>
 </body>
 </html>

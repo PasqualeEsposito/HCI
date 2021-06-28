@@ -1,7 +1,9 @@
 body{
     background-color: white;
 }
-
+.corpo{
+    min-height: 800px;
+}
 #containerLuoghiInteresse{
     padding: 28px;
 }

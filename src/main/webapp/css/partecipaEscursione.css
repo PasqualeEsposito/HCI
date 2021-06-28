@@ -3,10 +3,13 @@ body{
     height: 100%;
 }
 
+.colorBlack{
+    color: black;
+}
 .grid-container {
     margin: 10px;
     display: grid;
-    grid-gap: 50px 100px;
+    grid-gap: 50px 65px;
     grid-template-columns: 30% 30% 30%;
     padding: 10px;
 }

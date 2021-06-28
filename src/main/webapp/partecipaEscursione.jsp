@@ -4,7 +4,8 @@
 </jsp:include>
 <link rel="stylesheet" href="css/partecipaEscursione.css">
 
-<h1>Partecipa ad un'escursione</h1>
+
+<h1 class="colorBlack">Partecipa ad un'escursione</h1>
 <% Object controllo=request.getAttribute("messaggioEscursione");
     if(controllo!=null && controllo.toString().equals("true")){ %>
 <div class="container-fluid">
@@ -19,7 +20,7 @@
 
 <div class="grid-container">
     <div class="grid-item">
-        <h1 style="color: black">Lago del Matese</h1>
+        <h3 style="color: black">Lago del Matese</h3>
         <img src="immagini/matese.png" alt="Lago del Matese" style="width: 80%">
         <div>
             <button class="button" onclick="window.location.href='partecipa-escursione?name=matese'">Partecipa</button>
@@ -27,7 +28,7 @@
         </div>
     </div>
     <div class="grid-item">
-        <h1 style="color: black">Foresta Umbra</h1>
+        <h3 style="color: black">Foresta Umbra</h3>
         <img src="immagini/forestaUmbra.png" alt="Foresta Umbra" style="width: 80%">
         <div>
             <button class="button" onclick="window.location.href='partecipa-escursione?name=umbra'">Partecipa</button>
@@ -35,7 +36,7 @@
         </div>
     </div>
     <div class="grid-item">
-        <h1 style="color: black">Parco Nazionale dell'Abruzzo</h1>
+        <h3 style="color: black">Parco Nazionale dell'Abruzzo</h3>
         <img src="immagini/parcoAbruzzo.png" alt="Parco Nazionale dell'Abruzzo" style="width: 80%">
         <div>
             <button class="button" onclick="window.location.href='partecipa-escursione?name=abruzzo'">Partecipa</button>
@@ -43,7 +44,7 @@
         </div>
     </div>
     <div class="grid-item">
-        <h1 style="color: black">Sentiero degli Dei</h1>
+        <h3 style="color: black">Sentiero degli Dei</h3>
         <img src="immagini/sentieroDegliDei.png" alt="Sentiero degli Dei" style="width: 80%">
         <div>
             <button class="button" onclick="window.location.href='partecipa-escursione?name=dei'">Partecipa</button>
@@ -51,7 +52,7 @@
         </div>
     </div>
     <div class="grid-item">
-        <h1 style="color: black">Parco Nazionale del Vesuvio</h1>
+        <h3 style="color: black">Parco Nazionale del Vesuvio</h3>
         <img src="immagini/vesuvio.png" alt="Parco Nazionale del Vesuvio" style="width: 80%">
         <div>
             <button class="button" onclick="window.location.href='partecipa-escursione?name=vesuvio'">Partecipa</button>
@@ -59,7 +60,7 @@
         </div>
     </div>
     <div class="grid-item">
-        <h1 style="color: black">Parco Nazionale dello Stelvio</h1>
+        <h3 style="color: black">Parco Nazionale dello Stelvio</h3>
         <img src="immagini/parcoStelvio.png" alt="Parco Nazionale dello Stelvio" style="width: 80%">
         <div>
             <button class="button" onclick="window.location.href='partecipa-escursione?name=stelvio'">Partecipa</button>
@@ -68,7 +69,7 @@
     </div>
 
     <div id="e1" class="grid-item" style="display: none">
-        <h1 style="color: black">Parco Nazionale del Pollino</h1>
+        <h3 style="color: black">Parco Nazionale del Pollino</h3>
         <img src="immagini/parcoPollino.png" alt="Parco Nazionale del Pollino" style="width: 80%">
         <div>
             <button class="button" onclick="window.location.href='partecipa-escursione?name=pollino'">Partecipa</button>
@@ -76,7 +77,7 @@
         </div>
     </div>
     <div id="e2" class="grid-item" style="display: none">
-        <h1 style="color: black">Parco Nazionale della Sila</h1>
+        <h3 style="color: black">Parco Nazionale della Sila</h3>
         <img src="immagini/parcoSila.png" alt="Parco Nazionale della Sila" style="width: 80%">
         <div>
             <button class="button" onclick="window.location.href='partecipa-escursione?name=sila'">Partecipa</button>
@@ -85,7 +86,7 @@
     </div>
     <%if(controllo!=null && controllo.toString().equals("true")){ %>
     <div id="e3" class="grid-item" style="display: none;">
-        <h1 style="color: black"><%= request.getParameter("luogoEscursione") %></h1>
+        <h3 style="color: black"><%= request.getParameter("luogoEscursione") %></h3>
         <img src="immagini/parcoParadiso.png" alt="Parco Nazionale del Gran Paradiso" style="width: 400px">
         <div>
             <button class="button" onclick="window.location.href='partecipa-escursione?name=<%= request.getParameter("luogoEscursione") %>&name2=aggiunta'">Partecipa</button>
