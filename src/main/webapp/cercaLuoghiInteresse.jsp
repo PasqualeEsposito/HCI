@@ -10,7 +10,8 @@
         <h3>Carica una foto che hai scattato in uno dei seguenti luoghi. Anche una semplice foto può aiutarci nei nostri studi!</h3>
         <hr>
     </div>
-    <div class="sfondoVerdeChiaro">
+    <iframe src="https://www.google.com/maps/d/embed?mid=1wWreVNo7-XV049QJ3MMiwm2Ozp-Yxzko" width="640" height="480"></iframe>
+    <!--<div class="sfondoVerdeChiaro">
         <ul class="lista">
             <li>Parco nazionale del Gran Paradiso</li>
             <li>Parco nazionale dello Stelvio</li>
@@ -23,7 +24,7 @@
             <li>Parco nazionale della Sila</li>
         </ul>
 
-    </div>
+    </div>-->
 </div>
 
 <div class="footer"> <%@include file="footer.html"%></div>

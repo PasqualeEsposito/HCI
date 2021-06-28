@@ -8,7 +8,7 @@
 
 <h1 class="colour" style="margin-left: 1%"><b>${nome}</b></h1>
 <div class="grid-container">
-    <img src="${luogo}" class="grid-item" width="700px">
+    <img src="${luogo}" alt="${nome}" class="grid-item" width="80%">
     <div>
         <form action="partecipazione" id="partecipazione" name="partecipazione">
             <div class="form-group">
