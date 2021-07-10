@@ -5,7 +5,9 @@
 <link rel="stylesheet" href="css/partecipaEscursione.css">
 
 
-<h1 class="colorBlack">Partecipa ad un'escursione</h1>
+<div class="container-fluid">
+    <h1 style="font-weight: bold;" class="colorBlack">Partecipa ad un'escursione</h1>
+</div>
 <% Object controllo=request.getAttribute("messaggioEscursione");
     if(controllo!=null && controllo.toString().equals("true")){ %>
 <div class="container-fluid">
@@ -18,6 +20,16 @@
 </div>
 <%}%>
 
+<div class="container-fluid">
+    <form id="filtro" name="filtro" class="form-inline">
+        <label class="my-1 mr-2 colorBlack" for="luogo">Cerca Luogo: </label>
+        <input name="luogo" type="text" class="form-control my-1 mr-sm-2" id="luogo" placeholder="es. Lago del Matese">
+        <button type="submit" class="btn btn-success my-1 mr-2">FILTRA</button>
+        <button type="button" class="btn btn-danger my-1 mr-2" id="rimuovi-filtri">RIMUOVI FILTRI</button>
+    </form>
+</div>
+<hr>
+<h2 class="colorBlack" id="nessun-risultato">Nessun risultato trovao</h2>
 <div class="grid-container">
     <div class="grid-item">
         <h3 style="color: black">Lago del Matese</h3>
@@ -98,5 +110,6 @@
     <button id="btn" class="button" style="font-size: 24px; margin-left: 43%;" onclick="caricaEscursioni()">Carica altre escursioni</button>
 <%@include file="footer.html"%>
 <script type="text/javascript" src="script/caricaEscursioni.js"></script>
+<script type="text/javascript" src="script/filtro-partecipa-escursione.js"></script>
 </body>
 </html>

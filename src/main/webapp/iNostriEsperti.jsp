@@ -7,7 +7,7 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-12">
-            <h1 class="colorBlack">I nostri esperti</h1>
+            <h1 style="font-weight: bold;" class="colorBlack">I nostri esperti</h1>
             <p class="colorBlack">Clicca su un esperto per contattarlo</p>
         </div>
     </div>
