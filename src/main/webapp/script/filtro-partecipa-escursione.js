@@ -8,6 +8,7 @@ $("document").ready(function (){
     ness_risultato.style.display="none";
 
     $(rimuovi).click(function (){
+        ness_risultato.style.display="none";
         filtroLuogo.value="";
         for(var i=0; i<contenitori.length; i++){
             contenitori[i].style.display="block";
@@ -20,6 +21,7 @@ $("document").ready(function (){
 
     var j=0;
     $("#filtro").submit(function(e){
+        j=0;
         ness_risultato.style.display="none";
         e.preventDefault();
         console.log(filtroLuogo.value);

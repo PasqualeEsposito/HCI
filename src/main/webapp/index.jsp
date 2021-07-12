@@ -62,7 +62,7 @@
             </a>
         </div>
 
-        <div class="container">
+        <div class="container" id="info">
             <div class="row">
                 <div class="col-12">
                     <h1 id="titoloBenvenuti">Benvenuti su Save the Planet</h1>
@@ -96,12 +96,13 @@
                 </div>
 
                 <div class="col-md-auto h-100 my-auto">
-                    <p id="citazioneTesto">"Mi interessa la giustizia climatica e salvare il pianeta" Greta Thunberg</p>
+                    <p class="citazioneTesto">"Mi interessa la giustizia climatica e salvare il pianeta"</p>
+                    <p class="citazioneTesto">- Greta Thunberg</p>
                 </div>
             </div>
         </div>
 
-        <div class="container">
+        <div class="container" id="prossimeEscursioni">
             <div class="row">
                     <h1>Le prossime escursioni</h1>
             </div>
@@ -113,7 +114,7 @@
                         <br>
                         <img src="immagini/matese.png" width="500" height="300">
                         <br>
-                        <a class="nav-link" href="#">Scopri di più</a>
+                        <a class="nav-link colorWhite" href="#">Scopri di più</a>
                     </div>
                 </div>
 
@@ -123,7 +124,7 @@
                         <br>
                         <img src="immagini/forestaUmbra.png" width="500" height="300">
                         <br>
-                        <a class="nav-link" href="#">Scopri di più</a>
+                        <a class="nav-link colorWhite" href="#">Scopri di più</a>
                     </div>
                 </div>
             </div>

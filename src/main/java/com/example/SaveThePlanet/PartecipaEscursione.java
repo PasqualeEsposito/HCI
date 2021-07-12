@@ -37,11 +37,11 @@ public class PartecipaEscursione extends HttpServlet {
             request.setAttribute("nome", "Parco Nazionale dello Stelvio");
         }
         if (luogo.equals("pollino")) {
-            request.setAttribute("luogo", "immagini/parcoPollino");
+            request.setAttribute("luogo", "immagini/parcoPollino.png");
             request.setAttribute("nome", "Parco Nazionale del Pollino");
         }
         if (luogo.equals("sila")) {
-            request.setAttribute("luogo", "immagini/parcoSila");
+            request.setAttribute("luogo", "immagini/parcoSila.png");
             request.setAttribute("nome", "Parco Nazionale della Sila");
         }
 

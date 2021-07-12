@@ -29,7 +29,7 @@
     </form>
 </div>
 <hr>
-<h2 class="colorBlack" id="nessun-risultato">Nessun risultato trovao</h2>
+<h2 class="colorBlack" id="nessun-risultato">Nessun risultato trovato</h2>
 <div class="grid-container">
     <div class="grid-item">
         <h3 style="color: black">Lago del Matese</h3>

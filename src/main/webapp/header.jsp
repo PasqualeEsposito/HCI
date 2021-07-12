@@ -28,19 +28,19 @@
             <div class="container-fluid">
                 <div class="row w-100 justify-content-center">
                     <div class="col-md-auto h-100 my-auto">
-                        <a class="navbar-brand sottotitoli" href="caricaFoto.jsp">Carica una foto</a>
+                        <a class="navbar-brand sottotitoli" href="caricaFoto.jsp">Carica Foto</a>
                     </div>
                     <div class="col-md-auto h-100 my-auto">
-                        <a class="navbar-brand sottotitoli" href="partecipaEscursione.jsp">Partecipa ad un'escursione</a>
+                        <a class="navbar-brand sottotitoli" href="partecipaEscursione.jsp">Partecipa Escursione</a>
                     </div>
                     <div class="col-md-auto h-100 my-auto">
-                        <a class="navbar-brand sottotitoli" href="organizzaEscursione.jsp">Organizza un'escursione</a>
+                        <a class="navbar-brand sottotitoli" href="organizzaEscursione.jsp">Organizza Escursione</a>
                     </div>
                     <div class="col-md-auto h-100 my-auto">
-                        <a class="navbar-brand sottotitoli" href="cercaLuoghiInteresse.jsp">Cerca luoghi di interesse</a>
+                        <a class="navbar-brand sottotitoli" href="cercaLuoghiInteresse.jsp">Cerca luoghi</a>
                     </div>
                     <div class="col-md-auto h-100 my-auto">
-                        <a class="navbar-brand sottotitoli" href="iNostriEsperti.jsp">Contatta un esperto</a>
+                        <a class="navbar-brand sottotitoli" href="iNostriEsperti.jsp">Contatta Esperto</a>
                     </div>
                 </div>
             </div>

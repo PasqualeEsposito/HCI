@@ -22,10 +22,20 @@ body{
 
 /*slider*/
 .immaginiSlider{
-    height: 1080px;
+    height: 800px;
 }
 
 /*informazioni*/
+
+#info{
+    margin-top: 28px;
+}
+
+#prossimeEscursioni{
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+
 h1#titoloBenvenuti{
     font-size: 40px;
     color: white;
@@ -42,8 +52,13 @@ h1#titoloBenvenuti{
     padding: 2.5%;
 }
 
-#citazioneTesto{
+.citazioneTesto{
     font-style: italic;
+    font-size: 1.2vw;
+}
+
+.colorWhite{
+    color: white;
 }
 
 /*footer*/
@@ -51,4 +66,20 @@ h1#titoloBenvenuti{
     background-color: #757B73;
     min-height: 100px;
 }
+
+.image-blur{
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    display: block;
+    width: 100%;
+    height: 90%;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+}
+
 
