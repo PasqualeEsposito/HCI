@@ -1,7 +1,6 @@
 $("document").ready(function (){
-    var contenitori = document.getElementsByClassName("grid-container")[0].getElementsByClassName("grid-item");
+    var contenitori = document.getElementsByClassName("lista")[0].getElementsByTagName("li");
     var filtroLuogo = document.forms["filtro"]["luogo"];
-    var caricaAltre = document.getElementById("btn");
     var rimuovi = document.getElementById("rimuovi-filtri");
     var ness_risultato = document.getElementById("nessun-risultato");
 
@@ -12,11 +11,7 @@ $("document").ready(function (){
         filtroLuogo.value="";
         for(var i=0; i<contenitori.length; i++){
             contenitori[i].style.display="block";
-            if(contenitori.length-2<=i){
-                contenitori[i].style.display="none";
-            }
         }
-        caricaAltre.style.display="block";
     })
 
     var j=0;
@@ -28,21 +23,16 @@ $("document").ready(function (){
         if(filtroLuogo.value==""){
             for(var i=0; i<contenitori.length; i++){
                 contenitori[i].style.display="block";
-                if(contenitori.length-2<=i){
-                    contenitori[i].style.display="none";
-                    j++;
-                }
+                j++;
             }
-            caricaAltre.style.display="block";
         }else{
             for(var i=0; i<contenitori.length; i++){
                 contenitori[i].style.display="block";
-                console.log(contenitori[i].childNodes[1].childNodes[0].textContent);
-                if(!contenitori[i].childNodes[1].childNodes[0].textContent.toLowerCase().includes(filtroLuogo.value.toLowerCase())){
+                console.log(contenitori[i].childNodes[0].childNodes[0].textContent);
+                if(!contenitori[i].childNodes[0].childNodes[0].textContent.toLowerCase().includes(filtroLuogo.value.toLowerCase())){
                     contenitori[i].style.display="none";
                 }else j++;
             }
-            caricaAltre.style.display="none";
         }
 
         if(j==0){
