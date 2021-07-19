@@ -1,2 +1,2 @@
 # SaveThePlanet
-Progetto interazione uomo-macchina 2021
+Human-Computer Interaction project
